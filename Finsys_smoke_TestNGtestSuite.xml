@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SMOKE" parallel="none">
+	<listeners>
+		<listener class-name="ej.finsys.listener.SuiteListener"></listener>
+		<listener class-name="ej.finsys.listener.TestCaseListener"></listener>
+	</listeners>
+	<test name="Verify Authentication process of a finsys user having role of CFO">
+		<parameter name="tcid" value="tc82"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+		<parameter name="url" value="prm_url"></parameter>
+		<!-- <parameter name="expected_launchApplication" value="true"></parameter> -->
+		<parameter name="username" value="prm_usernamecfo" ></parameter>
+		<parameter name="password" value="prm_password"></parameter>
+		<!-- <parameter name="expected_LoginApplication" value="true"></parameter> -->
+		<parameter name="role" value="prm_rolecfo"></parameter>
+		<!-- <parameter name="expected_homePageLoaded" value="true"></parameter> -->
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- Finsys_smoke TC82 cfo Ends -->
+
+	<test name="Verify Authentication process of a finsys user having role of FM">
+		<parameter name="tcid" value="tc82"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+		<parameter name="url" value="prm_url"></parameter>
+		<!-- <parameter name="expected_launchApplication" value="true"></parameter> -->
+		<parameter name="username" value="prm_usernameFM"></parameter>
+		<parameter name="password" value="prm_password"></parameter>
+		<!-- <parameter name="expected_LoginApplication" value="true"></parameter> -->
+		<parameter name="role" value="prm_roleFM"></parameter>
+		<!-- <parameter name="expected_homePageLoaded" value="true"></parameter> -->
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- Finsys_smoke TC82 FM Ends -->
+
+	<test name="Verify Authentication process of a finsys user having role of COH">
+		<parameter name="tcid" value="tc82"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+		<parameter name="url" value="prm_url"></parameter>
+		<!-- <parameter name="expected_launchApplication" value="true"></parameter> -->
+		<parameter name="username" value="prm_usernameCOH"></parameter>
+		<parameter name="password" value="prm_password"></parameter>
+		<!-- <parameter name="expected_LoginApplication" value="true"></parameter> -->
+		<parameter name="role" value="prm_roleCOH"></parameter>
+		<!-- <parameter name="expected_homePageLoaded" value="true"></parameter> -->
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- Finsys_smoke TC82 COH Ends -->
+
+	<test
+		name="Verify Authentication process of a finsys user having role of RM">
+		<parameter name="tcid" value="tc82"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+		<parameter name="url" value="prm_url"></parameter>
+		<!-- <parameter name="expected_launchApplication" value="true"></parameter> -->
+		<parameter name="username" value="prm_usernameRM"></parameter>
+		<parameter name="password" value="prm_password"></parameter>
+		<!-- <parameter name="expected_LoginApplication" value="true"></parameter> -->
+		<parameter name="role" value="prm_roleRM"></parameter>
+		<!-- <parameter name="expected_homePageLoaded" value="true"></parameter> -->
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- Finsys_smoke TC82 RM Ends -->
+
+	<test name="Verify Authentication process of a finsys user having role of ITM">
+		<parameter name="tcid" value="tc82"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+		<parameter name="url" value="prm_url"></parameter>
+		<!-- <parameter name="expected_launchApplication" value="true"></parameter> -->
+		<parameter name="username" value="prm_usernameITM"></parameter>
+		<parameter name="password" value="prm_password"></parameter>
+		<!-- <parameter name="expected_LoginApplication" value="true"></parameter> -->
+		<parameter name="role" value="prm_roleITM"></parameter>
+		<!-- <parameter name="expected_homePageLoaded" value="true"></parameter> -->
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- Finsys_smoke TC82 ITM Ends -->
+
+	<test name="Verify Authentication process of a finsys user having role of ABM">
+		<parameter name="tcid" value="tc82"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+		<parameter name="url" value="prm_url"></parameter>
+		<!-- <parameter name="expected_launchApplication" value="true"></parameter> -->
+		<parameter name="username" value="prm_usernameABM"></parameter>
+		<parameter name="password" value="prm_password"></parameter>
+		<!-- <parameter name="expected_LoginApplication" value="true"></parameter> -->
+		<parameter name="role" value="prm_roleABM"></parameter>
+		<!-- <parameter name="expected_homePageLoaded" value="true"></parameter> -->
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include>
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- Finsys_smoke TC82 ABM Ends -->
+
+	<test name=" Verify Creation of a New Company by passing all Valid Details">
+		<parameter name="tcid" value="tc83"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+
+		<parameter name="url" value="prm_url"></parameter><!-- For launch application 
+			method -->
+
+		<parameter name="username" value="prm_usernamecfo"></parameter><!-- For login page 
+			method -->
+		<parameter name="password" value="prm_password"></parameter>
+
+		<parameter name="panel" value="prm_panelFA"></parameter><!-- For Navigating 
+			to frame method -->
+		<parameter name="frame" value="prm_frameMC"></parameter>
+		<parameter name="frameIndex" value="0"></parameter>
+
+		<parameter name="companyName" value="#prm_companyName"></parameter> <!-- For Create new company method -->
+		<parameter name="companyType" value="prm_companyType"></parameter>
+		<parameter name="companySubType" value="prm_companySubType"></parameter>
+		<parameter name="address" value="prm_address"></parameter>
+		<parameter name="phone" value="prm_phone"></parameter>
+		<parameter name="email" value="prm_email"></parameter>
+		<parameter name="panDetails" value="prm_panDetails"></parameter>
+		<parameter name="tinDetail" value="prm_tinDetail"></parameter>
+		<parameter name="mobileNum" value="prm_mobileNum"></parameter>
+		<parameter name="website" value="prm_CompanyWebsite"></parameter>
+		<parameter name="country" value="prm_country"></parameter>
+		<parameter name="state" value="prm_state"></parameter>
+		<parameter name="city" value="prm_city"></parameter>
+		<parameter name="totalEmployees" value="prm_totalEmployees"></parameter>
+
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include><!-- Launching application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include><!-- Login to application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.NavigateTo">
+				<methods>
+					<include name="ExecuteNavigateTo"></include><!-- Navigate to company frame -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CreateNewCompany">
+				<methods>
+					<include name="executeCreateNewCompany"></include><!-- Create new company -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- TC83 Ends -->
+
+	<test name="Verify updated details of the Company are properly reflecting on View Company Page">
+		<parameter name="tcid" value="tc84"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+
+		<parameter name="url" value="prm_url"></parameter><!-- For launch application 
+			method -->
+
+		<parameter name="username" value="prm_usernamecfo"></parameter><!-- For login page 
+			method -->
+		<parameter name="password" value="prm_password"></parameter>
+
+		<parameter name="panel" value="prm_panelFA"></parameter><!-- For Navigating 
+			to frame method -->
+		<parameter name="frame" value="prm_frameMC"></parameter>
+		<parameter name="frameIndex" value="0"></parameter>
+
+		<parameter name="companyName" value="#prm_companyName"></parameter> <!-- For Createnewcompany method -->
+		<parameter name="companyType" value="prm_companyType"></parameter>
+		<parameter name="companySubType" value="prm_companySubType"></parameter>
+		<parameter name="address" value="prm_address"></parameter>
+		<parameter name="phone" value="prm_phone"></parameter>
+		<parameter name="email" value="prm_email"></parameter>
+		<parameter name="panDetails" value="prm_panDetails"></parameter>
+		<parameter name="tinDetail" value="prm_tinDetail"></parameter>
+		<parameter name="mobileNum" value="prm_mobileNum"></parameter>
+		<parameter name="website" value="prm_CompanyWebsite"></parameter>
+		<parameter name="country" value="prm_country"></parameter>
+		<parameter name="state" value="prm_state"></parameter>
+		<parameter name="city" value="prm_city"></parameter>
+		<parameter name="totalEmployees" value="prm_totalEmployees"></parameter>
+
+		<parameter name="uoldCompanyName" value="createdCompanyName"></parameter><!-- For 
+			executeUpdatecompany method -->
+		<parameter name="ucompanyName" value="#prm_UpdatecompanyName"></parameter>
+		<parameter name="ucompanyType" value="prm_UpdatecompanyType"></parameter>
+		<parameter name="ucompanySubType" value="prm_UpdatecompanySubType"></parameter>
+		<parameter name="uaddress" value="prm_UpdatecompanyAddress"></parameter>
+		<parameter name="uphone" value="prm_UpdatecompanyPhone"></parameter>
+		<parameter name="uemail" value="prm_UpdatecompanyEmail"></parameter>
+		<parameter name="upanDetails" value="prm_UpdateCompanyPan"></parameter>
+		<parameter name="utinDetail" value="prm_UpdateCompanyTin"></parameter>
+		<parameter name="umobileNum" value="prm_UpdateCompanyMobile"></parameter>
+		<parameter name="uwebsite" value="prm_UpdateCompanyWebsite"></parameter>
+		<parameter name="ucountry" value="prm_UpdateCompanyCountry"></parameter>
+		<parameter name="ustate" value="prm_UpdateCompanyState"></parameter>
+		<parameter name="ucity" value="prm_UpdateCompanyCity"></parameter>
+		<parameter name="utotalEmployees" value="prm_UpdateCompanyTotalEmployee"></parameter>
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include><!-- Launching application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include><!-- Login to application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.NavigateTo">
+				<methods>
+					<include name="ExecuteNavigateTo"></include><!-- Navigate to company frame -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CreateNewCompany">
+				<methods>
+					<include name="executeCreateNewCompany"></include><!-- Create new company -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.UpdateCompany">
+				<methods>
+					<include name="ExecuteUpdateCompany"></include><!-- Updating company details -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- TC84 Ends -->
+
+	<test name="Verify of Deletion of a Recently added Company whose revenue and expense related information is not available">
+		<parameter name="tcid" value="tc85"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+
+		<parameter name="url" value="prm_url"></parameter><!-- For launch application 
+			method -->
+
+		<parameter name="username" value="prm_usernamecfo"></parameter><!-- For login page 
+			method -->
+		<parameter name="password" value="prm_password"></parameter>
+
+		<parameter name="panel" value="prm_panelFA"></parameter><!-- For Navigating 
+			to frame method -->
+		<parameter name="frame" value="prm_frameMC"></parameter>
+		<parameter name="frameIndex" value="0"></parameter>
+
+		<parameter name="companyName" value="#prm_companyName"></parameter> <!-- For Createnewcompany method -->
+		<parameter name="companyType" value="prm_companyType"></parameter>
+		<parameter name="companySubType" value="prm_companySubType"></parameter>
+		<parameter name="address" value="prm_address"></parameter>
+		<parameter name="phone" value="prm_phone"></parameter>
+		<parameter name="email" value="prm_email"></parameter>
+		<parameter name="panDetails" value="prm_panDetails"></parameter>
+		<parameter name="tinDetail" value="prm_tinDetail"></parameter>
+		<parameter name="mobileNum" value="prm_mobileNum"></parameter>
+		<parameter name="website" value="prm_CompanyWebsite"></parameter>
+		<parameter name="country" value="prm_country"></parameter>
+		<parameter name="state" value="prm_state"></parameter>
+		<parameter name="city" value="prm_city"></parameter>
+		<parameter name="totalEmployees" value="prm_totalEmployees"></parameter>
+
+		<parameter name="companyNameDelete" value="createdCompanyName"></parameter><!-- For 
+			DeleteCompany method -->
+		<parameter name="expectedDeleteResult" value="true"></parameter>
+
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include><!-- Launching application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include><!-- Login to application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.NavigateTo">
+				<methods>
+					<include name="ExecuteNavigateTo"></include><!-- Navigate to company frame -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CreateNewCompany">
+				<methods>
+					<include name="executeCreateNewCompany"></include><!-- Create new company -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.DeleteCompany">
+				<methods>
+					<include name="ExecuteDeleteCompany"></include><!-- Delete company -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- TC85 Ends -->
+
+	<test name="Verify of Deletion of a Company whose revenue and expense related information is available">
+		<parameter name="tcid" value="tc86"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+
+		<parameter name="url" value="prm_url"></parameter><!-- For launch application 
+			method -->
+
+		<parameter name="username" value="prm_usernamecfo"></parameter><!-- For login page 
+			method -->
+		<parameter name="password" value="prm_password"></parameter>
+
+		<parameter name="panel" value="prm_panelFA"></parameter><!-- For Navigating 
+			to frame method -->
+		<parameter name="frame" value="prm_frameMC"></parameter>
+		<parameter name="frameIndex" value="0"></parameter>
+
+		<parameter name="companyName" value="#prm_companyName"></parameter> <!-- For Createnewcompany method -->
+		<parameter name="companyType" value="prm_companyType"></parameter>
+		<parameter name="companySubType" value="prm_companySubType"></parameter>
+		<parameter name="address" value="prm_address"></parameter>
+		<parameter name="phone" value="prm_phone"></parameter>
+		<parameter name="email" value="prm_email"></parameter>
+		<parameter name="panDetails" value="prm_panDetails"></parameter>
+		<parameter name="tinDetail" value="prm_tinDetail"></parameter>
+		<parameter name="mobileNum" value="prm_mobileNum"></parameter>
+		<parameter name="website" value="prm_CompanyWebsite"></parameter>
+		<parameter name="country" value="prm_country"></parameter>
+		<parameter name="state" value="prm_state"></parameter>
+		<parameter name="city" value="prm_city"></parameter>
+		<parameter name="totalEmployees" value="prm_totalEmployees"></parameter>
+
+		<parameter name="LcompanyName" value="createdCompanyName"></parameter> <!-- For Create Leasehold imprvement -->
+		<parameter name="Lfeedback1" value="prm_Leaseholdfeedback1"></parameter>
+		<parameter name="Lfeedback2" value="prm_Leaseholdfeedback2"></parameter>
+		<parameter name="Lfeedback3" value="prm_Leaseholdfeedback3"></parameter>
+		<parameter name="Lfeedback4" value="prm_Leaseholdfeedback4"></parameter>
+
+		<parameter name="companyNameDelete" value="prm_companyNameDelete"></parameter><!-- For 
+			delete company -->
+		<parameter name="expectedDeleteResult" value="false"></parameter>
+
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include><!-- Launching application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include><!-- Login to application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.NavigateTo">
+				<methods>
+					<include name="ExecuteNavigateTo"></include><!-- Navigate to company frame -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CreateNewCompany">
+				<methods>
+					<include name="executeCreateNewCompany"></include><!-- Create new company -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.NavigateToLeasehold">
+				<methods>
+					<include name="ExecuteNavigateToLeasehold"></include><!-- Navigate to leasehold -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CreateLeasehold">
+				<methods>
+					<include name="	"></include><!-- Create new leasehold improvement -->
+				</methods>
+			</class>
+			<class name="ej.finsys.pages.Home">
+				<methods>
+					<include name="SwitchBackToHomePage"></include><!-- Switch back to home page -->
+					<include name="ClickManageCompany"></include><!-- click manage company -->
+					<include name="SwitchToCompanyFrame"></include><!-- Switch to company frame -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.DeleteCompany">
+				<methods>
+					<include name="ExecuteDeleteCompany"></include><!-- Delete company -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- TC86 Ends -->
+
+	<test name="Verify Creation of a New Leasehold Improvements by passing all Valid Details">
+		<parameter name="tcid" value="tc88"></parameter>
+		<parameter name="type" value="smoke"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+
+		<parameter name="url" value="prm_url"></parameter><!-- For launch application 
+			method -->
+
+		<parameter name="username" value="prm_usernamecfo"></parameter><!-- For login page 
+			method -->
+		<parameter name="password" value="prm_password"></parameter>
+
+		<parameter name="panel" value="prm_panelFA"></parameter><!-- For Navigating 
+			to frame method -->
+		<parameter name="frame" value="prm_frameMC"></parameter>
+		<parameter name="frameIndex" value="0"></parameter>
+
+		<parameter name="companyName" value="#prm_companyName"></parameter> <!-- For Createnewcompany method -->
+		<parameter name="companyType" value="prm_companyType"></parameter>
+		<parameter name="companySubType" value="prm_companySubType"></parameter>
+		<parameter name="address" value="prm_address"></parameter>
+		<parameter name="phone" value="prm_phone"></parameter>
+		<parameter name="email" value="prm_email"></parameter>
+		<parameter name="panDetails" value="prm_panDetails"></parameter>
+		<parameter name="tinDetail" value="prm_tinDetail"></parameter>
+		<parameter name="mobileNum" value="prm_mobileNum"></parameter>
+		<parameter name="website" value="prm_CompanyWebsite"></parameter>
+		<parameter name="country" value="prm_country"></parameter>
+		<parameter name="state" value="prm_state"></parameter>
+		<parameter name="city" value="prm_city"></parameter>
+		<parameter name="totalEmployees" value="prm_totalEmployees"></parameter>
+
+		<parameter name="LcompanyName" value="createdCompanyName"></parameter> <!-- For Leasehold imprvement -->
+		<parameter name="Lfeedback1" value="prm_Leaseholdfeedback1"></parameter>
+		<parameter name="Lfeedback2" value="prm_Leaseholdfeedback2"></parameter>
+		<parameter name="Lfeedback3" value="prm_Leaseholdfeedback3"></parameter>
+		<parameter name="Lfeedback4" value="prm_Leaseholdfeedback4"></parameter>
+
+		<classes>
+			<class name="ej.finsys.modules.LaunchApplication">
+				<methods>
+					<include name="ExecuteLaunchApplication"></include><!-- Launching application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.LoginToApplication">
+				<methods>
+					<include name="ExecuteLoginToApplication"></include><!-- Login to application -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.NavigateTo">
+				<methods>
+					<include name="ExecuteNavigateTo"></include><!-- Navigate to company frame -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CreateNewCompany">
+				<methods>
+					<include name="executeCreateNewCompany"></include><!-- Create new company -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.NavigateToLeasehold">
+				<methods>
+					<include name="ExecuteNavigateToLeasehold"></include><!-- Navigate to leasehold -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CreateLeasehold">
+				<methods>
+					<include name="	"></include><!-- Create new leasehold improvement -->
+				</methods>
+			</class>
+			<class name="ej.finsys.modules.CloseApplication">
+			</class>
+		</classes>
+	</test> <!-- TC88 Ends -->
+</suite> <!-- SMOKE -->

@@ -1,0 +1,15 @@
+package ej.oop.classes;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Statement;
+
+public class dBOperation {
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		java.sql.Connection sqlConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/finsys","root","admin");
+		Statement sqlStatement 
+		sqlConnection.commit();
+	}
+}

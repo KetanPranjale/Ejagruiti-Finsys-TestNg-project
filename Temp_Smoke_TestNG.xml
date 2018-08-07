@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SMOKE" parallel="none">
+	<test
+		name="Verify addition, substraction, multiplicatioin and division of 2 numbers">
+		<parameter name="tcid" value="tc4"></parameter>
+		<parameter name="owner" value="ketan"></parameter>
+		<parameter name="type" value="regression"></parameter>
+		<parameter name="a1" value="10"></parameter>
+		<parameter name="a2" value="10"></parameter>
+		<parameter name="ea" value="20"></parameter>
+		<parameter name="s1" value="10"></parameter>
+		<parameter name="s2" value="4"></parameter>
+		<parameter name="es" value="6"></parameter>
+		<parameter name="d1" value="50"></parameter>
+		<parameter name="d2" value="5"></parameter>
+		<parameter name="ed" value="10"></parameter>
+		<parameter name="m1" value="10"></parameter>
+		<parameter name="m2" value="10"></parameter>
+		<parameter name="em" value="10"></parameter>
+		<classes>
+			<class name="Temp.Maths1">
+				<methods>
+					<include name="Addition"></include>
+					<include name="Substraction"></include>
+				</methods>
+			</class>
+			<class name="Temp.Maths2">
+				<methods>
+					<include name="Multiplication"></include>
+					<include name="Division"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

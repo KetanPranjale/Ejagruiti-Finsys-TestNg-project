@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SMOKE]">
+  <listeners>
+    <listener class-name="ej.finsys.listener.SuiteListener"/>
+    <listener class-name="ej.finsys.listener.TestCaseListener"/>
+  </listeners>
+  <test name="Verify Authentication process of a finsys user having role of CFO(failed)">
+    <parameter name="owner" value="ketan"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="role" value="prm_rolecfo"/>
+    <parameter name="tcid" value="tc82"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="username" value="prm_usernamecfo"/>
+    <classes>
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify Authentication process of a finsys user having role of CFO(failed) -->
+  <test name="Verify Authentication process of a finsys user having role of FM(failed)">
+    <parameter name="owner" value="ketan"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="role" value="prm_roleFM"/>
+    <parameter name="tcid" value="tc82"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="username" value="prm_usernameFM"/>
+    <classes>
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify Authentication process of a finsys user having role of FM(failed) -->
+  <test name="Verify Authentication process of a finsys user having role of COH(failed)">
+    <parameter name="owner" value="ketan"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="role" value="prm_roleCOH"/>
+    <parameter name="tcid" value="tc82"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="username" value="prm_usernameCOH"/>
+    <classes>
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify Authentication process of a finsys user having role of COH(failed) -->
+  <test name="Verify Authentication process of a finsys user having role of RM(failed)">
+    <parameter name="owner" value="ketan"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="role" value="prm_roleRM"/>
+    <parameter name="tcid" value="tc82"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="username" value="prm_usernameRM"/>
+    <classes>
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify Authentication process of a finsys user having role of RM(failed) -->
+  <test name="Verify Authentication process of a finsys user having role of ITM(failed)">
+    <parameter name="owner" value="ketan"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="role" value="prm_roleITM"/>
+    <parameter name="tcid" value="tc82"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="username" value="prm_usernameITM"/>
+    <classes>
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify Authentication process of a finsys user having role of ITM(failed) -->
+  <test name="Verify Authentication process of a finsys user having role of ABM(failed)">
+    <parameter name="owner" value="ketan"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="role" value="prm_roleABM"/>
+    <parameter name="tcid" value="tc82"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="username" value="prm_usernameABM"/>
+    <classes>
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify Authentication process of a finsys user having role of ABM(failed) -->
+  <test name=" Verify Creation of a New Company by passing all Valid Details(failed)">
+    <parameter name="owner" value="ketan"/>
+    <parameter name="country" value="prm_country"/>
+    <parameter name="frameIndex" value="0"/>
+    <parameter name="website" value="prm_CompanyWebsite"/>
+    <parameter name="address" value="prm_address"/>
+    <parameter name="companyType" value="prm_companyType"/>
+    <parameter name="city" value="prm_city"/>
+    <parameter name="companyName" value="#prm_companyName"/>
+    <parameter name="panDetails" value="prm_panDetails"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="tinDetail" value="prm_tinDetail"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="mobileNum" value="prm_mobileNum"/>
+    <parameter name="companySubType" value="prm_companySubType"/>
+    <parameter name="phone" value="prm_phone"/>
+    <parameter name="state" value="prm_state"/>
+    <parameter name="tcid" value="tc83"/>
+    <parameter name="panel" value="prm_panelFA"/>
+    <parameter name="totalEmployees" value="prm_totalEmployees"/>
+    <parameter name="email" value="prm_email"/>
+    <parameter name="username" value="prm_usernamecfo"/>
+    <parameter name="frame" value="prm_frameMC"/>
+    <classes>
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.NavigateTo">
+        <methods>
+          <include name="ExecuteNavigateTo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.NavigateTo -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.CreateNewCompany">
+        <methods>
+          <include name="executeCreateNewCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CreateNewCompany -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!--  Verify Creation of a New Company by passing all Valid Details(failed) -->
+  <test name="Verify updated details of the Company are properly reflecting on View Company Page(failed)">
+    <parameter name="uoldCompanyName" value="createdCompanyName"/>
+    <parameter name="country" value="prm_country"/>
+    <parameter name="ucountry" value="prm_UpdateCompanyCountry"/>
+    <parameter name="frameIndex" value="0"/>
+    <parameter name="ucompanySubType" value="prm_UpdatecompanySubType"/>
+    <parameter name="city" value="prm_city"/>
+    <parameter name="companyName" value="#prm_companyName"/>
+    <parameter name="panDetails" value="prm_panDetails"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="ustate" value="prm_UpdateCompanyState"/>
+    <parameter name="tinDetail" value="prm_tinDetail"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="companySubType" value="prm_companySubType"/>
+    <parameter name="state" value="prm_state"/>
+    <parameter name="uphone" value="prm_UpdatecompanyPhone"/>
+    <parameter name="panel" value="prm_panelFA"/>
+    <parameter name="email" value="prm_email"/>
+    <parameter name="uaddress" value="prm_UpdatecompanyAddress"/>
+    <parameter name="utinDetail" value="prm_UpdateCompanyTin"/>
+    <parameter name="owner" value="ketan"/>
+    <parameter name="ucompanyType" value="prm_UpdatecompanyType"/>
+    <parameter name="website" value="prm_CompanyWebsite"/>
+    <parameter name="address" value="prm_address"/>
+    <parameter name="companyType" value="prm_companyType"/>
+    <parameter name="uwebsite" value="prm_UpdateCompanyWebsite"/>
+    <parameter name="umobileNum" value="prm_UpdateCompanyMobile"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="uemail" value="prm_UpdatecompanyEmail"/>
+    <parameter name="mobileNum" value="prm_mobileNum"/>
+    <parameter name="upanDetails" value="prm_UpdateCompanyPan"/>
+    <parameter name="ucompanyName" value="#prm_UpdatecompanyName"/>
+    <parameter name="utotalEmployees" value="prm_UpdateCompanyTotalEmployee"/>
+    <parameter name="phone" value="prm_phone"/>
+    <parameter name="tcid" value="tc84"/>
+    <parameter name="totalEmployees" value="prm_totalEmployees"/>
+    <parameter name="username" value="prm_usernamecfo"/>
+    <parameter name="frame" value="prm_frameMC"/>
+    <parameter name="ucity" value="prm_UpdateCompanyCity"/>
+    <classes>
+      <class name="ej.finsys.modules.UpdateCompany">
+        <methods>
+          <include name="ExecuteUpdateCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.UpdateCompany -->
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.NavigateTo">
+        <methods>
+          <include name="ExecuteNavigateTo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.NavigateTo -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.CreateNewCompany">
+        <methods>
+          <include name="executeCreateNewCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CreateNewCompany -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify updated details of the Company are properly reflecting on View Company Page(failed) -->
+  <test name="Verify of Deletion of a Recently added Company whose revenue and expense related information is not available(failed)">
+    <parameter name="country" value="prm_country"/>
+    <parameter name="frameIndex" value="0"/>
+    <parameter name="city" value="prm_city"/>
+    <parameter name="companyName" value="#prm_companyName"/>
+    <parameter name="panDetails" value="prm_panDetails"/>
+    <parameter name="expectedDeleteResult" value="true"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="tinDetail" value="prm_tinDetail"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="companySubType" value="prm_companySubType"/>
+    <parameter name="state" value="prm_state"/>
+    <parameter name="panel" value="prm_panelFA"/>
+    <parameter name="email" value="prm_email"/>
+    <parameter name="owner" value="ketan"/>
+    <parameter name="website" value="prm_CompanyWebsite"/>
+    <parameter name="address" value="prm_address"/>
+    <parameter name="companyType" value="prm_companyType"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="mobileNum" value="prm_mobileNum"/>
+    <parameter name="phone" value="prm_phone"/>
+    <parameter name="companyNameDelete" value="createdCompanyName"/>
+    <parameter name="tcid" value="tc85"/>
+    <parameter name="totalEmployees" value="prm_totalEmployees"/>
+    <parameter name="username" value="prm_usernamecfo"/>
+    <parameter name="frame" value="prm_frameMC"/>
+    <classes>
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.NavigateTo">
+        <methods>
+          <include name="ExecuteNavigateTo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.NavigateTo -->
+      <class name="ej.finsys.modules.DeleteCompany">
+        <methods>
+          <include name="ExecuteDeleteCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.DeleteCompany -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.CreateNewCompany">
+        <methods>
+          <include name="executeCreateNewCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CreateNewCompany -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify of Deletion of a Recently added Company whose revenue and expense related information is not available(failed) -->
+  <test name="Verify of Deletion of a Company whose revenue and expense related information is available(failed)">
+    <parameter name="country" value="prm_country"/>
+    <parameter name="frameIndex" value="0"/>
+    <parameter name="city" value="prm_city"/>
+    <parameter name="companyName" value="#prm_companyName"/>
+    <parameter name="panDetails" value="prm_panDetails"/>
+    <parameter name="expectedDeleteResult" value="false"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="tinDetail" value="prm_tinDetail"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="companySubType" value="prm_companySubType"/>
+    <parameter name="state" value="prm_state"/>
+    <parameter name="panel" value="prm_panelFA"/>
+    <parameter name="email" value="prm_email"/>
+    <parameter name="owner" value="ketan"/>
+    <parameter name="website" value="prm_CompanyWebsite"/>
+    <parameter name="address" value="prm_address"/>
+    <parameter name="companyType" value="prm_companyType"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="LcompanyName" value="createdCompanyName"/>
+    <parameter name="mobileNum" value="prm_mobileNum"/>
+    <parameter name="Lfeedback2" value="prm_Leaseholdfeedback2"/>
+    <parameter name="phone" value="prm_phone"/>
+    <parameter name="Lfeedback1" value="prm_Leaseholdfeedback1"/>
+    <parameter name="companyNameDelete" value="prm_companyNameDelete"/>
+    <parameter name="Lfeedback4" value="prm_Leaseholdfeedback4"/>
+    <parameter name="Lfeedback3" value="prm_Leaseholdfeedback3"/>
+    <parameter name="tcid" value="tc86"/>
+    <parameter name="totalEmployees" value="prm_totalEmployees"/>
+    <parameter name="username" value="prm_usernamecfo"/>
+    <parameter name="frame" value="prm_frameMC"/>
+    <classes>
+      <class name="ej.finsys.pages.Home">
+        <methods>
+          <include name="ClickManageCompany"/>
+          <include name="SwitchToCompanyFrame"/>
+          <include name="SwitchBackToHomePage"/>
+        </methods>
+      </class> <!-- ej.finsys.pages.Home -->
+      <class name="ej.finsys.modules.CreateLeasehold">
+        <methods>
+          <include name="ExecuteCreateLeasehold" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CreateLeasehold -->
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.NavigateToLeasehold">
+        <methods>
+          <include name="ExecuteNavigateToLeasehold"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.NavigateToLeasehold -->
+      <class name="ej.finsys.modules.NavigateTo">
+        <methods>
+          <include name="ExecuteNavigateTo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.NavigateTo -->
+      <class name="ej.finsys.modules.DeleteCompany">
+        <methods>
+          <include name="ExecuteDeleteCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.DeleteCompany -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.CreateNewCompany">
+        <methods>
+          <include name="executeCreateNewCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CreateNewCompany -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify of Deletion of a Company whose revenue and expense related information is available(failed) -->
+  <test name="Verify Creation of a New Leasehold Improvements by passing all Valid Details(failed)">
+    <parameter name="country" value="prm_country"/>
+    <parameter name="frameIndex" value="0"/>
+    <parameter name="city" value="prm_city"/>
+    <parameter name="companyName" value="#prm_companyName"/>
+    <parameter name="panDetails" value="prm_panDetails"/>
+    <parameter name="type" value="smoke"/>
+    <parameter name="tinDetail" value="prm_tinDetail"/>
+    <parameter name="password" value="prm_password"/>
+    <parameter name="companySubType" value="prm_companySubType"/>
+    <parameter name="state" value="prm_state"/>
+    <parameter name="panel" value="prm_panelFA"/>
+    <parameter name="email" value="prm_email"/>
+    <parameter name="owner" value="ketan"/>
+    <parameter name="website" value="prm_CompanyWebsite"/>
+    <parameter name="address" value="prm_address"/>
+    <parameter name="companyType" value="prm_companyType"/>
+    <parameter name="url" value="prm_url"/>
+    <parameter name="LcompanyName" value="createdCompanyName"/>
+    <parameter name="mobileNum" value="prm_mobileNum"/>
+    <parameter name="Lfeedback2" value="prm_Leaseholdfeedback2"/>
+    <parameter name="phone" value="prm_phone"/>
+    <parameter name="Lfeedback1" value="prm_Leaseholdfeedback1"/>
+    <parameter name="Lfeedback4" value="prm_Leaseholdfeedback4"/>
+    <parameter name="Lfeedback3" value="prm_Leaseholdfeedback3"/>
+    <parameter name="tcid" value="tc88"/>
+    <parameter name="totalEmployees" value="prm_totalEmployees"/>
+    <parameter name="username" value="prm_usernamecfo"/>
+    <parameter name="frame" value="prm_frameMC"/>
+    <classes>
+      <class name="ej.finsys.modules.CreateLeasehold">
+        <methods>
+          <include name="ExecuteCreateLeasehold" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CreateLeasehold -->
+      <class name="ej.finsys.modules.LoginToApplication">
+        <methods>
+          <include name="ExecuteLoginToApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LoginToApplication -->
+      <class name="ej.finsys.modules.NavigateToLeasehold">
+        <methods>
+          <include name="ExecuteNavigateToLeasehold"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.NavigateToLeasehold -->
+      <class name="ej.finsys.modules.NavigateTo">
+        <methods>
+          <include name="ExecuteNavigateTo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.NavigateTo -->
+      <class name="ej.finsys.modules.CloseApplication">
+        <methods>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+          <include name="ExecuteCloseApplication"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CloseApplication -->
+      <class name="ej.finsys.modules.CreateNewCompany">
+        <methods>
+          <include name="executeCreateNewCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.CreateNewCompany -->
+      <class name="ej.finsys.modules.LaunchApplication">
+        <methods>
+          <include name="ExecuteLaunchApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ej.finsys.modules.LaunchApplication -->
+    </classes>
+  </test> <!-- Verify Creation of a New Leasehold Improvements by passing all Valid Details(failed) -->
+</suite> <!-- Failed suite [SMOKE] -->

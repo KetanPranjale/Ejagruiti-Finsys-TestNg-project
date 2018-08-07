@@ -1,0 +1,65 @@
+package ej.oop.classes;
+
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Random;
+
+import javax.annotation.Generated;
+
+import src.ejagruti.generic.GFL;
+import sun.font.CreatedFontTracker;
+
+
+public class TestDataCreation {
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		java.sql.Connection sqlConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/oriflame","root","admin");
+		Statement sqlStatement =  sqlConnection.createStatement();
+		int rowsAffected=0;
+		while (rowsAffected<100) {		
+			String selectCustidQuery = "SELECT custid FROM customermaster ORDER BY RAND() LIMIT 1";		
+			ResultSet query1 = sqlStatement.executeQuery(selectCustidQuery);
+			String custid = null;
+			if(query1.next()){
+				custid = query1.getString(1);	
+			}
+			
+			String order_date = GFL.GenerateRandomDate(2014, 2017); // random date between 2014-2017
+			
+			String order_priority = Integer.toString(GFL.GenerateRandomNumber(100, 1));
+			
+			String pid = null;
+			String selectPIDQuery = "SELECT pid FROM pname ORDER BY RAND() LIMIT 1";
+			ResultSet query2 = sqlStatement.executeQuery(selectPIDQuery);
+			if(query2.next()){
+				pid = query2.getString(1);
+			}
+			
+			String order_quantity = Integer.toString(GFL.GenerateRandomNumber(10, 1));
+			
+			String discount_percentage = Integer.toString(GFL.GenerateRandomNumber(10, 1));
+			
+			String ship_mode = Integer.toBinaryString(GFL.GenerateRandomNumber(100, 1));
+			
+			String city_code = null;
+			String selectCityCodeQuery = "SELECT city_code FROM cities ORDER BY RAND() LIMIT 1";
+			ResultSet query3 = sqlStatement.executeQuery(selectCityCodeQuery);
+			if(query3.next()){
+				city_code = query3.getString(1);
+			}
+			
+			String shipping_cost = Integer.toString(GFL.GenerateRandomNumber(100, 1));
+			
+			String insertIntoOriflame="INSERT INTO ordermaster (custid, order_date,"
+					+ " order_priority, pid, order_quantity, discount_percentage, ship_mode, city_code, shipping_cost) "
+					+ "VALUES ("+custid+", '"+order_date+"', "+order_priority+", "+pid+", "+order_quantity+", "+discount_percentage+", "+ship_mode+", "
+					+ ""+city_code+", "+shipping_cost+") ";
+//			System.out.println(insertIntoOriflame);
+			sqlStatement.executeUpdate(insertIntoOriflame);
+			rowsAffected++;
+		}
+		System.out.println("Number of rows affected : "+rowsAffected);
+	}
+}

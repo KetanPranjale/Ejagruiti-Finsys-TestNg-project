@@ -1,0 +1,2106 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 42 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SMOKE">
+              <span class="suite-name border-failed">SMOKE</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SMOKE">
+                    <span>G:\ej_WS_MM\Finsys_smoke_TestNGtestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SMOKE">
+                    <span class="test-stats">11 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SMOKE">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SMOKE">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SMOKE">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SMOKE">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SMOKE">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods, 42 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SMOKE" class="hide-methods failed suite-SMOKE"> (hide)</a> <!-- hide-methods failed suite-SMOKE -->
+                      <a href="#" panel-name="suite-SMOKE" class="show-methods failed suite-SMOKE"> (show)</a> <!-- show-methods failed suite-SMOKE -->
+                    </span>
+                    <div class="method-list-content failed suite-SMOKE">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.pages.Home" hash-for-method="ClickManageCompany">ClickManageCompany</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.CreateLeasehold" hash-for-method="ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...)">ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.CreateLeasehold" hash-for-method="ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...)">ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.DeleteCompany" hash-for-method="ExecuteDeleteCompany(createdCompanyName, true)">ExecuteDeleteCompany(createdCompanyName, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.DeleteCompany" hash-for-method="ExecuteDeleteCompany(prm_companyNameDelete, false)">ExecuteDeleteCompany(prm_companyNameDelete, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LaunchApplication" hash-for-method="ExecuteLaunchApplication(prm_url)">ExecuteLaunchApplication(prm_url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernameFM, prm_password)">ExecuteLoginToApplication(prm_usernameFM, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernameCOH, prm_password)">ExecuteLoginToApplication(prm_usernameCOH, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernameRM, prm_password)">ExecuteLoginToApplication(prm_usernameRM, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernameITM, prm_password)">ExecuteLoginToApplication(prm_usernameITM, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernameABM, prm_password)">ExecuteLoginToApplication(prm_usernameABM, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.LoginToApplication" hash-for-method="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.NavigateTo" hash-for-method="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.NavigateTo" hash-for-method="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.NavigateTo" hash-for-method="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.NavigateTo" hash-for-method="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.NavigateTo" hash-for-method="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.NavigateToLeasehold" hash-for-method="ExecuteNavigateToLeasehold">ExecuteNavigateToLeasehold</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.NavigateToLeasehold" hash-for-method="ExecuteNavigateToLeasehold">ExecuteNavigateToLeasehold</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.UpdateCompany" hash-for-method="ExecuteUpdateCompany(createdCompanyName, #prm_UpdatecompanyName, prm_UpdatecompanyType, prm_UpdatecompanySubType, prm_Upd...)">ExecuteUpdateCompany(createdCompanyName, #prm_UpdatecompanyName, prm_UpdatecompanyType, prm_UpdatecompanySubType, prm_Upd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.pages.Home" hash-for-method="SwitchBackToHomePage">SwitchBackToHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.pages.Home" hash-for-method="SwitchToCompanyFrame">SwitchToCompanyFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.CreateNewCompany" hash-for-method="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.CreateNewCompany" hash-for-method="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.CreateNewCompany" hash-for-method="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.CreateNewCompany" hash-for-method="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="ej.finsys.modules.CreateNewCompany" hash-for-method="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SMOKE -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SMOKE" class="panel SMOKE">
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.pages.Home</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickManageCompany">
+                  </a> <!-- ClickManageCompany -->
+                  <span class="method-name">ClickManageCompany</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ej.finsys.pages.Home.WaitTillObjectExists(Home.java:31)
+	at ej.finsys.pages.Home.ClickManageCompany(Home.java:75)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SwitchBackToHomePage">
+                  </a> <!-- SwitchBackToHomePage -->
+                  <span class="method-name">SwitchBackToHomePage</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ej.finsys.pages.Home.SwitchBackToHomePage(Home.java:120)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SwitchToCompanyFrame">
+                  </a> <!-- SwitchToCompanyFrame -->
+                  <span class="method-name">SwitchToCompanyFrame</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ej.finsys.pages.Home.SwitchToCompanyFrame(Home.java:88)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.modules.UpdateCompany</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteUpdateCompany(createdCompanyName, #prm_UpdatecompanyName, prm_UpdatecompanyType, prm_UpdatecompanySubType, prm_Upd...)">
+                  </a> <!-- ExecuteUpdateCompany(createdCompanyName, #prm_UpdatecompanyName, prm_UpdatecompanyType, prm_UpdatecompanySubType, prm_Upd...) -->
+                  <span class="method-name">ExecuteUpdateCompany</span>
+                  <span class="parameters">(createdCompanyName, #prm_UpdatecompanyName, prm_UpdatecompanyType, prm_UpdatecompanySubType, prm_UpdatecompanyAddress, prm_UpdatecompanyPhone, prm_UpdatecompanyEmail, prm_UpdateCompanyPan, prm_UpdateCompanyTin, prm_UpdateCompanyMobile, prm_UpdateCompanyWebsite, prm_UpdateCompanyCountry, prm_UpdateCompanyState, prm_UpdateCompanyCity, prm_UpdateCompanyTotalEmployee)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.UpdateCompany.ExecuteUpdateCompany(UpdateCompany.java:96)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.modules.LoginToApplication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernamecfo, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernamecfo, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernameFM, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernameFM, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernameFM, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernameCOH, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernameCOH, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernameCOH, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernameRM, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernameRM, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernameRM, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernameITM, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernameITM, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernameITM, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernameABM, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernameABM, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernameABM, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernamecfo, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernamecfo, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernamecfo, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernamecfo, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernamecfo, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernamecfo, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernamecfo, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernamecfo, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLoginToApplication(prm_usernamecfo, prm_password)">
+                  </a> <!-- ExecuteLoginToApplication(prm_usernamecfo, prm_password) -->
+                  <span class="method-name">ExecuteLoginToApplication</span>
+                  <span class="parameters">(prm_usernamecfo, prm_password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at ej.finsys.modules.LoginToApplication.ExecuteLoginToApplication(LoginToApplication.java:60)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.modules.NavigateToLeasehold</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteNavigateToLeasehold">
+                  </a> <!-- ExecuteNavigateToLeasehold -->
+                  <span class="method-name">ExecuteNavigateToLeasehold</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.NavigateToLeasehold.ExecuteNavigateToLeasehold(NavigateToLeasehold.java:57)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteNavigateToLeasehold">
+                  </a> <!-- ExecuteNavigateToLeasehold -->
+                  <span class="method-name">ExecuteNavigateToLeasehold</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.NavigateToLeasehold.ExecuteNavigateToLeasehold(NavigateToLeasehold.java:57)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.modules.CreateLeasehold</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...)">
+                  </a> <!-- ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...) -->
+                  <span class="method-name">ExecuteCreateLeasehold</span>
+                  <span class="parameters">(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leaseholdfeedback4)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.CreateLeasehold.ExecuteCreateLeasehold(CreateLeasehold.java:57)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...)">
+                  </a> <!-- ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...) -->
+                  <span class="method-name">ExecuteCreateLeasehold</span>
+                  <span class="parameters">(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leaseholdfeedback4)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.CreateLeasehold.ExecuteCreateLeasehold(CreateLeasehold.java:57)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.modules.NavigateTo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">
+                  </a> <!-- ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0) -->
+                  <span class="method-name">ExecuteNavigateTo</span>
+                  <span class="parameters">(prm_panelFA, prm_frameMC, 0)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ej.finsys.pages.Home.SwitchBackToHomePage(Home.java:120)
+	at ej.finsys.modules.NavigateTo.ExecuteNavigateTo(NavigateTo.java:54)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">
+                  </a> <!-- ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0) -->
+                  <span class="method-name">ExecuteNavigateTo</span>
+                  <span class="parameters">(prm_panelFA, prm_frameMC, 0)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ej.finsys.pages.Home.SwitchBackToHomePage(Home.java:120)
+	at ej.finsys.modules.NavigateTo.ExecuteNavigateTo(NavigateTo.java:54)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">
+                  </a> <!-- ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0) -->
+                  <span class="method-name">ExecuteNavigateTo</span>
+                  <span class="parameters">(prm_panelFA, prm_frameMC, 0)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ej.finsys.pages.Home.SwitchBackToHomePage(Home.java:120)
+	at ej.finsys.modules.NavigateTo.ExecuteNavigateTo(NavigateTo.java:54)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">
+                  </a> <!-- ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0) -->
+                  <span class="method-name">ExecuteNavigateTo</span>
+                  <span class="parameters">(prm_panelFA, prm_frameMC, 0)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ej.finsys.pages.Home.SwitchBackToHomePage(Home.java:120)
+	at ej.finsys.modules.NavigateTo.ExecuteNavigateTo(NavigateTo.java:54)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)">
+                  </a> <!-- ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0) -->
+                  <span class="method-name">ExecuteNavigateTo</span>
+                  <span class="parameters">(prm_panelFA, prm_frameMC, 0)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ej.finsys.pages.Home.SwitchBackToHomePage(Home.java:120)
+	at ej.finsys.modules.NavigateTo.ExecuteNavigateTo(NavigateTo.java:54)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.modules.DeleteCompany</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteDeleteCompany(createdCompanyName, true)">
+                  </a> <!-- ExecuteDeleteCompany(createdCompanyName, true) -->
+                  <span class="method-name">ExecuteDeleteCompany</span>
+                  <span class="parameters">(createdCompanyName, true)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.DeleteCompany.ExecuteDeleteCompany(DeleteCompany.java:49)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteDeleteCompany(prm_companyNameDelete, false)">
+                  </a> <!-- ExecuteDeleteCompany(prm_companyNameDelete, false) -->
+                  <span class="method-name">ExecuteDeleteCompany</span>
+                  <span class="parameters">(prm_companyNameDelete, false)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.DeleteCompany.ExecuteDeleteCompany(DeleteCompany.java:49)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.modules.LaunchApplication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteLaunchApplication(prm_url)">
+                  </a> <!-- ExecuteLaunchApplication(prm_url) -->
+                  <span class="method-name">ExecuteLaunchApplication</span>
+                  <span class="parameters">(prm_url)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.LaunchApplication.ExecuteLaunchApplication(LaunchApplication.java:117)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+          <div class="suite-SMOKE-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ej.finsys.modules.CreateNewCompany</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">
+                  </a> <!-- executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...) -->
+                  <span class="method-name">executeCreateNewCompany</span>
+                  <span class="parameters">(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDetails, prm_tinDetail, prm_mobileNum, prm_CompanyWebsite, prm_country, prm_state, prm_city, prm_totalEmployees)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.CreateNewCompany.executeCreateNewCompany(CreateNewCompany.java:111)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">
+                  </a> <!-- executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...) -->
+                  <span class="method-name">executeCreateNewCompany</span>
+                  <span class="parameters">(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDetails, prm_tinDetail, prm_mobileNum, prm_CompanyWebsite, prm_country, prm_state, prm_city, prm_totalEmployees)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.CreateNewCompany.executeCreateNewCompany(CreateNewCompany.java:111)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">
+                  </a> <!-- executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...) -->
+                  <span class="method-name">executeCreateNewCompany</span>
+                  <span class="parameters">(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDetails, prm_tinDetail, prm_mobileNum, prm_CompanyWebsite, prm_country, prm_state, prm_city, prm_totalEmployees)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.CreateNewCompany.executeCreateNewCompany(CreateNewCompany.java:111)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">
+                  </a> <!-- executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...) -->
+                  <span class="method-name">executeCreateNewCompany</span>
+                  <span class="parameters">(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDetails, prm_tinDetail, prm_mobileNum, prm_CompanyWebsite, prm_country, prm_state, prm_city, prm_totalEmployees)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.CreateNewCompany.executeCreateNewCompany(CreateNewCompany.java:111)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)">
+                  </a> <!-- executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...) -->
+                  <span class="method-name">executeCreateNewCompany</span>
+                  <span class="parameters">(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDetails, prm_tinDetail, prm_mobileNum, prm_CompanyWebsite, prm_country, prm_state, prm_city, prm_totalEmployees)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ej.finsys.modules.CreateNewCompany.executeCreateNewCompany(CreateNewCompany.java:111)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-failed -->
+        </div> <!-- panel SMOKE -->
+        <div panel-name="test-xml-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\ej_WS_MM\Finsys_smoke_TestNGtestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SMOKE&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ej.finsys.listener.SuiteListener&quot;/&gt;
+    &lt;listener class-name=&quot;ej.finsys.listener.TestCaseListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Verify Authentication process of a finsys user having role of CFO&quot;&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;role&quot; value=&quot;prm_rolecfo&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc82&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernamecfo&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Authentication process of a finsys user having role of CFO --&gt;
+  &lt;test name=&quot;Verify Authentication process of a finsys user having role of FM&quot;&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;role&quot; value=&quot;prm_roleFM&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc82&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernameFM&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Authentication process of a finsys user having role of FM --&gt;
+  &lt;test name=&quot;Verify Authentication process of a finsys user having role of COH&quot;&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;role&quot; value=&quot;prm_roleCOH&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc82&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernameCOH&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Authentication process of a finsys user having role of COH --&gt;
+  &lt;test name=&quot;Verify Authentication process of a finsys user having role of RM&quot;&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;role&quot; value=&quot;prm_roleRM&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc82&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernameRM&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Authentication process of a finsys user having role of RM --&gt;
+  &lt;test name=&quot;Verify Authentication process of a finsys user having role of ITM&quot;&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;role&quot; value=&quot;prm_roleITM&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc82&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernameITM&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Authentication process of a finsys user having role of ITM --&gt;
+  &lt;test name=&quot;Verify Authentication process of a finsys user having role of ABM&quot;&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;role&quot; value=&quot;prm_roleABM&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc82&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernameABM&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Authentication process of a finsys user having role of ABM --&gt;
+  &lt;test name=&quot; Verify Creation of a New Company by passing all Valid Details&quot;&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;country&quot; value=&quot;prm_country&quot;/&gt;
+    &lt;parameter name=&quot;frameIndex&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;website&quot; value=&quot;prm_CompanyWebsite&quot;/&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;prm_address&quot;/&gt;
+    &lt;parameter name=&quot;companyType&quot; value=&quot;prm_companyType&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;prm_city&quot;/&gt;
+    &lt;parameter name=&quot;companyName&quot; value=&quot;#prm_companyName&quot;/&gt;
+    &lt;parameter name=&quot;panDetails&quot; value=&quot;prm_panDetails&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;tinDetail&quot; value=&quot;prm_tinDetail&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;mobileNum&quot; value=&quot;prm_mobileNum&quot;/&gt;
+    &lt;parameter name=&quot;companySubType&quot; value=&quot;prm_companySubType&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;prm_phone&quot;/&gt;
+    &lt;parameter name=&quot;state&quot; value=&quot;prm_state&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc83&quot;/&gt;
+    &lt;parameter name=&quot;panel&quot; value=&quot;prm_panelFA&quot;/&gt;
+    &lt;parameter name=&quot;totalEmployees&quot; value=&quot;prm_totalEmployees&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;prm_email&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernamecfo&quot;/&gt;
+    &lt;parameter name=&quot;frame&quot; value=&quot;prm_frameMC&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.NavigateTo&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteNavigateTo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.NavigateTo --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CreateNewCompany&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;executeCreateNewCompany&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.CreateNewCompany --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  Verify Creation of a New Company by passing all Valid Details --&gt;
+  &lt;test name=&quot;Verify updated details of the Company are properly reflecting on View Company Page&quot;&gt;
+    &lt;parameter name=&quot;uoldCompanyName&quot; value=&quot;createdCompanyName&quot;/&gt;
+    &lt;parameter name=&quot;country&quot; value=&quot;prm_country&quot;/&gt;
+    &lt;parameter name=&quot;ucountry&quot; value=&quot;prm_UpdateCompanyCountry&quot;/&gt;
+    &lt;parameter name=&quot;frameIndex&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;ucompanySubType&quot; value=&quot;prm_UpdatecompanySubType&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;prm_city&quot;/&gt;
+    &lt;parameter name=&quot;companyName&quot; value=&quot;#prm_companyName&quot;/&gt;
+    &lt;parameter name=&quot;panDetails&quot; value=&quot;prm_panDetails&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;ustate&quot; value=&quot;prm_UpdateCompanyState&quot;/&gt;
+    &lt;parameter name=&quot;tinDetail&quot; value=&quot;prm_tinDetail&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;companySubType&quot; value=&quot;prm_companySubType&quot;/&gt;
+    &lt;parameter name=&quot;state&quot; value=&quot;prm_state&quot;/&gt;
+    &lt;parameter name=&quot;uphone&quot; value=&quot;prm_UpdatecompanyPhone&quot;/&gt;
+    &lt;parameter name=&quot;panel&quot; value=&quot;prm_panelFA&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;prm_email&quot;/&gt;
+    &lt;parameter name=&quot;uaddress&quot; value=&quot;prm_UpdatecompanyAddress&quot;/&gt;
+    &lt;parameter name=&quot;utinDetail&quot; value=&quot;prm_UpdateCompanyTin&quot;/&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;ucompanyType&quot; value=&quot;prm_UpdatecompanyType&quot;/&gt;
+    &lt;parameter name=&quot;website&quot; value=&quot;prm_CompanyWebsite&quot;/&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;prm_address&quot;/&gt;
+    &lt;parameter name=&quot;companyType&quot; value=&quot;prm_companyType&quot;/&gt;
+    &lt;parameter name=&quot;uwebsite&quot; value=&quot;prm_UpdateCompanyWebsite&quot;/&gt;
+    &lt;parameter name=&quot;umobileNum&quot; value=&quot;prm_UpdateCompanyMobile&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;uemail&quot; value=&quot;prm_UpdatecompanyEmail&quot;/&gt;
+    &lt;parameter name=&quot;mobileNum&quot; value=&quot;prm_mobileNum&quot;/&gt;
+    &lt;parameter name=&quot;upanDetails&quot; value=&quot;prm_UpdateCompanyPan&quot;/&gt;
+    &lt;parameter name=&quot;ucompanyName&quot; value=&quot;#prm_UpdatecompanyName&quot;/&gt;
+    &lt;parameter name=&quot;utotalEmployees&quot; value=&quot;prm_UpdateCompanyTotalEmployee&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;prm_phone&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc84&quot;/&gt;
+    &lt;parameter name=&quot;totalEmployees&quot; value=&quot;prm_totalEmployees&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernamecfo&quot;/&gt;
+    &lt;parameter name=&quot;frame&quot; value=&quot;prm_frameMC&quot;/&gt;
+    &lt;parameter name=&quot;ucity&quot; value=&quot;prm_UpdateCompanyCity&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.NavigateTo&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteNavigateTo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.NavigateTo --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CreateNewCompany&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;executeCreateNewCompany&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.CreateNewCompany --&gt;
+      &lt;class name=&quot;ej.finsys.modules.UpdateCompany&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteUpdateCompany&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.UpdateCompany --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify updated details of the Company are properly reflecting on View Company Page --&gt;
+  &lt;test name=&quot;Verify of Deletion of a Recently added Company whose revenue and expense related information is not available&quot;&gt;
+    &lt;parameter name=&quot;country&quot; value=&quot;prm_country&quot;/&gt;
+    &lt;parameter name=&quot;frameIndex&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;prm_city&quot;/&gt;
+    &lt;parameter name=&quot;companyName&quot; value=&quot;#prm_companyName&quot;/&gt;
+    &lt;parameter name=&quot;panDetails&quot; value=&quot;prm_panDetails&quot;/&gt;
+    &lt;parameter name=&quot;expectedDeleteResult&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;tinDetail&quot; value=&quot;prm_tinDetail&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;companySubType&quot; value=&quot;prm_companySubType&quot;/&gt;
+    &lt;parameter name=&quot;state&quot; value=&quot;prm_state&quot;/&gt;
+    &lt;parameter name=&quot;panel&quot; value=&quot;prm_panelFA&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;prm_email&quot;/&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;website&quot; value=&quot;prm_CompanyWebsite&quot;/&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;prm_address&quot;/&gt;
+    &lt;parameter name=&quot;companyType&quot; value=&quot;prm_companyType&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;mobileNum&quot; value=&quot;prm_mobileNum&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;prm_phone&quot;/&gt;
+    &lt;parameter name=&quot;companyNameDelete&quot; value=&quot;createdCompanyName&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc85&quot;/&gt;
+    &lt;parameter name=&quot;totalEmployees&quot; value=&quot;prm_totalEmployees&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernamecfo&quot;/&gt;
+    &lt;parameter name=&quot;frame&quot; value=&quot;prm_frameMC&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.NavigateTo&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteNavigateTo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.NavigateTo --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CreateNewCompany&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;executeCreateNewCompany&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.CreateNewCompany --&gt;
+      &lt;class name=&quot;ej.finsys.modules.DeleteCompany&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteDeleteCompany&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.DeleteCompany --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify of Deletion of a Recently added Company whose revenue and expense related information is not available --&gt;
+  &lt;test name=&quot;Verify of Deletion of a Company whose revenue and expense related information is available&quot;&gt;
+    &lt;parameter name=&quot;country&quot; value=&quot;prm_country&quot;/&gt;
+    &lt;parameter name=&quot;frameIndex&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;prm_city&quot;/&gt;
+    &lt;parameter name=&quot;companyName&quot; value=&quot;#prm_companyName&quot;/&gt;
+    &lt;parameter name=&quot;panDetails&quot; value=&quot;prm_panDetails&quot;/&gt;
+    &lt;parameter name=&quot;expectedDeleteResult&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;tinDetail&quot; value=&quot;prm_tinDetail&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;companySubType&quot; value=&quot;prm_companySubType&quot;/&gt;
+    &lt;parameter name=&quot;state&quot; value=&quot;prm_state&quot;/&gt;
+    &lt;parameter name=&quot;panel&quot; value=&quot;prm_panelFA&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;prm_email&quot;/&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;website&quot; value=&quot;prm_CompanyWebsite&quot;/&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;prm_address&quot;/&gt;
+    &lt;parameter name=&quot;companyType&quot; value=&quot;prm_companyType&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;LcompanyName&quot; value=&quot;createdCompanyName&quot;/&gt;
+    &lt;parameter name=&quot;mobileNum&quot; value=&quot;prm_mobileNum&quot;/&gt;
+    &lt;parameter name=&quot;Lfeedback2&quot; value=&quot;prm_Leaseholdfeedback2&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;prm_phone&quot;/&gt;
+    &lt;parameter name=&quot;Lfeedback1&quot; value=&quot;prm_Leaseholdfeedback1&quot;/&gt;
+    &lt;parameter name=&quot;companyNameDelete&quot; value=&quot;prm_companyNameDelete&quot;/&gt;
+    &lt;parameter name=&quot;Lfeedback4&quot; value=&quot;prm_Leaseholdfeedback4&quot;/&gt;
+    &lt;parameter name=&quot;Lfeedback3&quot; value=&quot;prm_Leaseholdfeedback3&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc86&quot;/&gt;
+    &lt;parameter name=&quot;totalEmployees&quot; value=&quot;prm_totalEmployees&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernamecfo&quot;/&gt;
+    &lt;parameter name=&quot;frame&quot; value=&quot;prm_frameMC&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.NavigateTo&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteNavigateTo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.NavigateTo --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CreateNewCompany&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;executeCreateNewCompany&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.CreateNewCompany --&gt;
+      &lt;class name=&quot;ej.finsys.modules.NavigateToLeasehold&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteNavigateToLeasehold&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.NavigateToLeasehold --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CreateLeasehold&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot; &quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.CreateLeasehold --&gt;
+      &lt;class name=&quot;ej.finsys.pages.Home&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;SwitchBackToHomePage&quot;/&gt;
+          &lt;include name=&quot;ClickManageCompany&quot;/&gt;
+          &lt;include name=&quot;SwitchToCompanyFrame&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.pages.Home --&gt;
+      &lt;class name=&quot;ej.finsys.modules.DeleteCompany&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteDeleteCompany&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.DeleteCompany --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify of Deletion of a Company whose revenue and expense related information is available --&gt;
+  &lt;test name=&quot;Verify Creation of a New Leasehold Improvements by passing all Valid Details&quot;&gt;
+    &lt;parameter name=&quot;country&quot; value=&quot;prm_country&quot;/&gt;
+    &lt;parameter name=&quot;frameIndex&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;prm_city&quot;/&gt;
+    &lt;parameter name=&quot;companyName&quot; value=&quot;#prm_companyName&quot;/&gt;
+    &lt;parameter name=&quot;panDetails&quot; value=&quot;prm_panDetails&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;smoke&quot;/&gt;
+    &lt;parameter name=&quot;tinDetail&quot; value=&quot;prm_tinDetail&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;prm_password&quot;/&gt;
+    &lt;parameter name=&quot;companySubType&quot; value=&quot;prm_companySubType&quot;/&gt;
+    &lt;parameter name=&quot;state&quot; value=&quot;prm_state&quot;/&gt;
+    &lt;parameter name=&quot;panel&quot; value=&quot;prm_panelFA&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;prm_email&quot;/&gt;
+    &lt;parameter name=&quot;owner&quot; value=&quot;ketan&quot;/&gt;
+    &lt;parameter name=&quot;website&quot; value=&quot;prm_CompanyWebsite&quot;/&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;prm_address&quot;/&gt;
+    &lt;parameter name=&quot;companyType&quot; value=&quot;prm_companyType&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;prm_url&quot;/&gt;
+    &lt;parameter name=&quot;LcompanyName&quot; value=&quot;createdCompanyName&quot;/&gt;
+    &lt;parameter name=&quot;mobileNum&quot; value=&quot;prm_mobileNum&quot;/&gt;
+    &lt;parameter name=&quot;Lfeedback2&quot; value=&quot;prm_Leaseholdfeedback2&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;prm_phone&quot;/&gt;
+    &lt;parameter name=&quot;Lfeedback1&quot; value=&quot;prm_Leaseholdfeedback1&quot;/&gt;
+    &lt;parameter name=&quot;Lfeedback4&quot; value=&quot;prm_Leaseholdfeedback4&quot;/&gt;
+    &lt;parameter name=&quot;Lfeedback3&quot; value=&quot;prm_Leaseholdfeedback3&quot;/&gt;
+    &lt;parameter name=&quot;tcid&quot; value=&quot;tc88&quot;/&gt;
+    &lt;parameter name=&quot;totalEmployees&quot; value=&quot;prm_totalEmployees&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;prm_usernamecfo&quot;/&gt;
+    &lt;parameter name=&quot;frame&quot; value=&quot;prm_frameMC&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ej.finsys.modules.LaunchApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLaunchApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LaunchApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.LoginToApplication&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteLoginToApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.LoginToApplication --&gt;
+      &lt;class name=&quot;ej.finsys.modules.NavigateTo&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteNavigateTo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.NavigateTo --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CreateNewCompany&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;executeCreateNewCompany&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.CreateNewCompany --&gt;
+      &lt;class name=&quot;ej.finsys.modules.NavigateToLeasehold&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ExecuteNavigateToLeasehold&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.NavigateToLeasehold --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CreateLeasehold&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot; &quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ej.finsys.modules.CreateLeasehold --&gt;
+      &lt;class name=&quot;ej.finsys.modules.CloseApplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Creation of a New Leasehold Improvements by passing all Valid Details --&gt;
+&lt;/suite&gt; &lt;!-- SMOKE --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Verify Authentication process of a finsys user having role of CFO (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Authentication process of a finsys user having role of FM (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Authentication process of a finsys user having role of COH (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Authentication process of a finsys user having role of RM (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Authentication process of a finsys user having role of ITM (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Authentication process of a finsys user having role of ABM (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name"> Verify Creation of a New Company by passing all Valid Details (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify updated details of the Company are properly reflecting on View Company Page (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify of Deletion of a Recently added Company whose revenue and expense related information is not available (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify of Deletion of a Company whose revenue and expense related information is available (9 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Creation of a New Leasehold Improvements by passing all Valid Details (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SMOKE');
+function tableData_SMOKE() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ExecuteCreateLeasehold')
+data.setCell(0, 2, 'ej.finsys.modules.CreateLeasehold')
+data.setCell(0, 3, 3063);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ExecuteCreateLeasehold')
+data.setCell(1, 2, 'ej.finsys.modules.CreateLeasehold')
+data.setCell(1, 3, 3010);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'executeCreateNewCompany')
+data.setCell(2, 2, 'ej.finsys.modules.CreateNewCompany')
+data.setCell(2, 3, 2086);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'executeCreateNewCompany')
+data.setCell(3, 2, 'ej.finsys.modules.CreateNewCompany')
+data.setCell(3, 3, 2044);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'executeCreateNewCompany')
+data.setCell(4, 2, 'ej.finsys.modules.CreateNewCompany')
+data.setCell(4, 3, 2042);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'executeCreateNewCompany')
+data.setCell(5, 2, 'ej.finsys.modules.CreateNewCompany')
+data.setCell(5, 3, 2042);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'executeCreateNewCompany')
+data.setCell(6, 2, 'ej.finsys.modules.CreateNewCompany')
+data.setCell(6, 3, 2039);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ExecuteNavigateTo')
+data.setCell(7, 2, 'ej.finsys.modules.NavigateTo')
+data.setCell(7, 3, 2026);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ExecuteNavigateTo')
+data.setCell(8, 2, 'ej.finsys.modules.NavigateTo')
+data.setCell(8, 3, 2025);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ExecuteNavigateToLeasehold')
+data.setCell(9, 2, 'ej.finsys.modules.NavigateToLeasehold')
+data.setCell(9, 3, 2023);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ExecuteNavigateTo')
+data.setCell(10, 2, 'ej.finsys.modules.NavigateTo')
+data.setCell(10, 3, 2022);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ExecuteNavigateTo')
+data.setCell(11, 2, 'ej.finsys.modules.NavigateTo')
+data.setCell(11, 3, 2016);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ExecuteNavigateToLeasehold')
+data.setCell(12, 2, 'ej.finsys.modules.NavigateToLeasehold')
+data.setCell(12, 3, 2010);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ExecuteNavigateTo')
+data.setCell(13, 2, 'ej.finsys.modules.NavigateTo')
+data.setCell(13, 3, 2007);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ExecuteLoginToApplication')
+data.setCell(14, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(14, 3, 1355);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ExecuteLoginToApplication')
+data.setCell(15, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(15, 3, 1031);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ExecuteLoginToApplication')
+data.setCell(16, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(16, 3, 1025);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ExecuteLoginToApplication')
+data.setCell(17, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(17, 3, 1022);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ExecuteLoginToApplication')
+data.setCell(18, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(18, 3, 1021);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ExecuteLoginToApplication')
+data.setCell(19, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(19, 3, 1017);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ExecuteDeleteCompany')
+data.setCell(20, 2, 'ej.finsys.modules.DeleteCompany')
+data.setCell(20, 3, 1015);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ExecuteLoginToApplication')
+data.setCell(21, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(21, 3, 1012);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ExecuteDeleteCompany')
+data.setCell(22, 2, 'ej.finsys.modules.DeleteCompany')
+data.setCell(22, 3, 1004);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ExecuteLoginToApplication')
+data.setCell(23, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(23, 3, 1003);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'ExecuteLoginToApplication')
+data.setCell(24, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(24, 3, 1003);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ExecuteLoginToApplication')
+data.setCell(25, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(25, 3, 1002);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'ExecuteLoginToApplication')
+data.setCell(26, 2, 'ej.finsys.modules.LoginToApplication')
+data.setCell(26, 3, 1001);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ExecuteLaunchApplication')
+data.setCell(27, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(27, 3, 345);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'ExecuteLaunchApplication')
+data.setCell(28, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(28, 3, 63);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'ClickManageCompany')
+data.setCell(29, 2, 'ej.finsys.pages.Home')
+data.setCell(29, 3, 63);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'ExecuteUpdateCompany')
+data.setCell(30, 2, 'ej.finsys.modules.UpdateCompany')
+data.setCell(30, 3, 37);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'ExecuteLaunchApplication')
+data.setCell(31, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(31, 3, 31);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'ExecuteLaunchApplication')
+data.setCell(32, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(32, 3, 19);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'ExecuteLaunchApplication')
+data.setCell(33, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(33, 3, 15);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'ExecuteLaunchApplication')
+data.setCell(34, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(34, 3, 15);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'ExecuteLaunchApplication')
+data.setCell(35, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(35, 3, 15);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'ExecuteLaunchApplication')
+data.setCell(36, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'ExecuteLaunchApplication')
+data.setCell(37, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'ExecuteLaunchApplication')
+data.setCell(38, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'SwitchBackToHomePage')
+data.setCell(39, 2, 'ej.finsys.pages.Home')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'SwitchToCompanyFrame')
+data.setCell(40, 2, 'ej.finsys.pages.Home')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'ExecuteLaunchApplication')
+data.setCell(41, 2, 'ej.finsys.modules.LaunchApplication')
+data.setCell(41, 3, 0);
+window.suiteTableData['SMOKE']= { tableData: data, tableDiv: 'times-div-SMOKE'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-SMOKE">
+              </div> <!-- times-div-SMOKE -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ej.finsys.pages.Home</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">ClickLeaseholdImprovement</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</span>
+                <span class="method-start">393 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">1748 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">1925 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernameFM, prm_password)</span>
+                <span class="method-start">2003 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">3034 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">3050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernameCOH, prm_password)</span>
+                <span class="method-start">3065 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">4090 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">4170 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernameRM, prm_password)</span>
+                <span class="method-start">4171 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">5188 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">5268 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernameITM, prm_password)</span>
+                <span class="method-start">5299 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">6328 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">6436 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernameABM, prm_password)</span>
+                <span class="method-start">6451 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">7468 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">7501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</span>
+                <span class="method-start">7516 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.NavigateTo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</span>
+                <span class="method-start">8519 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CreateNewCompany</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</span>
+                <span class="method-start">10561 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">12662 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">12776 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</span>
+                <span class="method-start">12792 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.NavigateTo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</span>
+                <span class="method-start">13793 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CreateNewCompany</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</span>
+                <span class="method-start">15809 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.UpdateCompany</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteUpdateCompany(createdCompanyName, #prm_UpdatecompanyName, prm_UpdatecompanyType, prm_UpdatecompanySubType, prm_Upd...)</span>
+                <span class="method-start">17863 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">17916 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">18025 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</span>
+                <span class="method-start">18040 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.NavigateTo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</span>
+                <span class="method-start">19043 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CreateNewCompany</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</span>
+                <span class="method-start">21065 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.DeleteCompany</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteDeleteCompany(createdCompanyName, true)</span>
+                <span class="method-start">23123 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">24146 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">24221 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</span>
+                <span class="method-start">24252 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.NavigateTo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</span>
+                <span class="method-start">25264 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CreateNewCompany</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</span>
+                <span class="method-start">27289 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.NavigateToLeasehold</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteNavigateToLeasehold</span>
+                <span class="method-start">29348 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CreateLeasehold</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...)</span>
+                <span class="method-start">31374 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.pages.Home</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickManageCompany</span>
+                <span class="method-start">34437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SwitchBackToHomePage</span>
+                <span class="method-start">34437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SwitchToCompanyFrame</span>
+                <span class="method-start">34500 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.DeleteCompany</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteDeleteCompany(prm_companyNameDelete, false)</span>
+                <span class="method-start">34516 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">35520 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LaunchApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLaunchApplication(prm_url)</span>
+                <span class="method-start">35600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.LoginToApplication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteLoginToApplication(prm_usernamecfo, prm_password)</span>
+                <span class="method-start">35600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.NavigateTo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteNavigateTo(prm_panelFA, prm_frameMC, 0)</span>
+                <span class="method-start">36622 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CreateNewCompany</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeCreateNewCompany(#prm_companyName, prm_companyType, prm_companySubType, prm_address, prm_phone, prm_email, prm_panDet...)</span>
+                <span class="method-start">38629 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.NavigateToLeasehold</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteNavigateToLeasehold</span>
+                <span class="method-start">40671 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CreateLeasehold</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCreateLeasehold(createdCompanyName, prm_Leaseholdfeedback1, prm_Leaseholdfeedback2, prm_Leaseholdfeedback3, prm_Leas...)</span>
+                <span class="method-start">42699 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ej.finsys.modules.CloseApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteCloseApplication</span>
+                <span class="method-start">45713 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

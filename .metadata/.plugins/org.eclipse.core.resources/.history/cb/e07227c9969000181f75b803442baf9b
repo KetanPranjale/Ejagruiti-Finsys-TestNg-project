@@ -1,0 +1,8 @@
+package ej.oop.classes;
+
+public class dBOperation {
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException{
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		java.sql.Connection sqlConnection ;
+	}
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [REGRESSION]">
+	<test name="Verify addition and multiplication of  2 numbers(failed)">
+		<parameter name="owner" value="ketan" />
+		<parameter name="a1" value="10" />
+		<parameter name="a2" value="10" />
+		<parameter name="m1" value="10" />
+		<parameter name="m2" value="10" />
+		<parameter name="em" value="10" />
+		<parameter name="tcid" value="tc5" />
+		<parameter name="type" value="regression" />
+		<parameter name="ea" value="20" />
+		<classes>
+			<class name="Temp.Maths2">
+				<methods>
+					<include name="Multiplication" invocation-numbers="0" />
+				</methods>
+			</class> <!-- Temp.Maths2 -->
+		</classes>
+	</test> <!-- Verify addition and multiplication of 2 numbers(failed) -->
+	<test name="Verify multiplication and division of 2 numbers(failed)">
+		<parameter name="owner" value="ketan" />
+		<parameter name="m1" value="10" />
+		<parameter name="m2" value="10" />
+		<parameter name="em" value="10" />
+		<parameter name="tcid" value="tc2" />
+		<parameter name="type" value="regression" />
+		<parameter name="d1" value="50" />
+		<parameter name="d2" value="5" />
+		<parameter name="ed" value="10" />
+		<classes>
+			<class name="Temp.Maths2">
+				<methods>
+					<include name="Multiplication" invocation-numbers="0" />
+				</methods>
+			</class> <!-- Temp.Maths2 -->
+		</classes>
+	</test> <!-- Verify multiplication and division of 2 numbers(failed) -->
+</suite> <!-- Failed suite [REGRESSION] -->

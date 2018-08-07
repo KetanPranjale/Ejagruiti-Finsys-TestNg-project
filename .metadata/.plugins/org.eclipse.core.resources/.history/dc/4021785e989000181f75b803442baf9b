@@ -1,0 +1,22 @@
+package ej.oop.classes;
+
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import sun.font.CreatedFontTracker;
+
+
+public class dBOperation {
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		java.sql.Connection sqlConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/finsys","root","admin");
+		Statement sqlStatement =  sqlConnection.createStatement();
+		ResultSet setOfResults = sqlStatement.executeQuery("Select * from cities");
+		while(setOfResults.next()){
+			System.out.println(setOfResults.toString());
+		}
+		sqlConnection.commit();
+	}
+}

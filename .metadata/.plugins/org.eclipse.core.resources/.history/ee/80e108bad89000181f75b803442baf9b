@@ -1,0 +1,24 @@
+package ej.oop.classes;
+
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import sun.font.CreatedFontTracker;
+
+
+public class dBOperation {
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException{
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		java.sql.Connection sqlConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/oriflame","root","admin");
+		Statement sqlStatement =  sqlConnection.createStatement();
+		ResultSet setOfResults = sqlStatement.executeQuery("INSERT INTO ordermaster (orderid , custid, order_date,"
+				+ " order_priority, pid, order_quantity, discount_percentage, ship_mode, city_code, shipping_cost) "
+				+ "VALUES (custid, order_date, order_priority, pid, order_quantity, discount_percentage, ship_mode, "
+				+ "city_code, shipping_cost) ");
+		while(setOfResults.next()){
+			System.out.println(setOfResults.getString("CITYNAME"));
+		}
+	}
+}
